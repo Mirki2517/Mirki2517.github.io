@@ -1,0 +1,1878 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 245, 255) !important;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.menu{
+    font-family: "Kodchasan", serif !important;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: #df678d;
+    
+}
+.icono{
+    display: none;
+    width: 15%;
+}
+#menu-ham{
+    display: none;
+}
+.menuham{    
+display: block;
+}
+.fondo{
+    position: absolute;
+    height:100vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background-color:  rgba(0, 0, 0, 0.24);
+}
+.cabeza{
+    position: relative;
+    width: 100%;
+   background-image: url(img/tela.png);
+    background-size: cover;
+    fill-opacity: calc(50);
+   height: 100vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+.telas-titulo{
+    width: 70%;
+    font-size: 11.875rem;
+    display: flex;
+    color: white;
+   font-weight: bold;
+   font-family: "Kodchasan", serif !important;
+}
+.telas-parrafo{
+    width: 70%;
+    font-family: "Kodchasan", serif !important;
+    color: white;
+    font-weight: 300;
+    font-size: 69px;
+}
+.flecha{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 5em;
+}
+
+.telas{
+  
+    width: 100%;
+    height: 800px;
+}
+.dropdown{
+    display: flex;
+    gap: 1em;
+   
+}
+.boton{
+    cursor: pointer;
+  
+    border-color: transparent;
+    background-color: rgb(152, 151, 224);
+    color: #ffffff !important;
+    border-radius:25px !important;
+    font-size: 18px !important;
+    height:100% !important;
+    font-family: "Kodchasan", serif !important;
+    padding: 1em;
+}
+.logo{
+    width: 15%;
+    padding: 2em;
+    }
+.redes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+#info-curso{
+    font-family: "Kodchasan", serif !important;
+    position: relative;
+    width: 100%;
+    padding: 5em 8em 5em 8em;
+   gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.titulo-curso{
+    font-size:4rem;
+    font-family: "Kodchasan", serif !important;
+    color: #CA456F;
+}
+.titulo-curso b{
+    font-weight: 300;
+}
+.barra{
+    position: absolute;
+    border-radius:  0 20px 0 0;
+    bottom: 0;
+    left: 0;
+    width: 59px;
+    height: 371px;
+    background-color: #CA456F;
+}
+
+#info-curso .contenedor-gral{
+flex-direction: column;
+    display: flex;
+    width: 100%;
+    gap: 3em;
+}
+
+.texto-izq{
+line-height: 3em;
+    display: flex;
+    width: 100%;
+text-align: center;
+    flex-direction: column;
+   
+}
+
+
+.texto-izq h1 b{
+    font-size: 30px;
+    font-family: "Kodchasan", serif !important;
+    padding: 5em 0 0 0;
+    color: #AF2752;
+}
+
+
+
+.texto-izq p b{
+    color: #AF2752;   
+}
+
+
+.videos{
+    gap: 2em;
+display: flex;
+}
+
+
+.video-izq{
+    height: 460px;
+    width: 100%;
+}
+
+.video-der{
+height: 460px;
+width: 100%;
+}
+
+.uniforme{
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+
+#diseño-curricular{
+    width: 100%;
+    height: 100%;
+    
+color: #ffffff;
+    font-family: "Kodchasan", serif !important;
+    padding: 5em 0 0 0;
+    background-color: #CA456F;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-curricular{
+    font-size: 4rem;
+    color: #ffffff;
+
+    font-family: "Kodchasan", serif !important;
+display: flex;
+justify-content: center;
+}
+
+.titulo-curricular b{
+    font-weight: 300;
+}
+
+
+
+.grancontenedor{
+    display: flex;
+
+}
+.contenedor-izq{
+
+ 
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+
+
+}
+.areas{
+    flex: 50%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 2em;
+    padding: 2em 2em 10em 2em;
+    
+  
+}
+
+
+.area1{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    position: relative;
+    width: 129px;
+    height: 129px;
+   
+}
+
+.area1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+
+.area1::after{
+    text-align: center;
+    font-size: 1.25vw;
+    position: absolute;
+    padding-top:16em;
+    content: "Desarrollo de colecciones para la industria de la moda";
+    margin: 0 auto;
+}
+
+.area2{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: relative;
+    font-size: 30px;
+    width: 129px;
+    height: 129px;
+}
+
+
+.area2 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+.area2::after{
+    text-align: center;
+    font-size: 1.25vw;
+    position: absolute;
+    padding-top:15em;
+    content: "Procesos de costura para la confección industrial";
+    margin: 0 auto;
+}
+
+
+.area3{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: relative;
+    width: 129px;
+    height: 129px;
+}
+
+
+.area3 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+
+.area3::after{
+    text-align: center;
+    font-size: 1.25vw;
+    position: absolute;
+    padding-top:15em;
+    content: "Diseño de elementos vectoriales en illustrator";
+    margin: 0 auto;
+}
+
+.area4{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: relative;
+    width: 129px;
+    height: 129px;
+}
+
+.area4 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+
+.area4::after{
+text-align: center;
+font-size: 1.25vw;
+    position: absolute;
+    padding-top:13em;
+    content: "Patronaje fisico y digital";
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hor-boton{
+    text-decoration: none;
+padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 52px;
+ cursor: pointer;
+ background-color: rgb(152, 151, 224);
+  border-radius: 20px;
+border: transparent;
+}
+
+.horarios{
+    flex: 50%;
+    height: 19.8vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-family: "Kodchasan", serif !important;
+    color: #ffffff;
+    background-color: #AF2752;
+    border-radius: 20px 20px 0 0;
+    padding: 10em 2em 10em 2em;
+}
+
+
+.horarios b{
+    font-weight: 300;
+}
+
+
+
+.horarios h1{
+    display: flex;
+    font-size: 35px;
+    padding-bottom: 0.5em;
+    padding-top:em;
+}
+.contenedor-der{
+flex: 30%;
+
+align-items: center;
+text-align: center;
+
+}
+
+
+.contenedor-der video{
+    width: 40%;
+}
+
+
+#area-laboral{
+    position: relative;
+    background-color: #ffffff;
+
+ font-family: "Kodchasan", serif !important;
+    width: 100%;
+    padding: 5em 8em 5em 8em;
+   
+}
+
+.swiper {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+   
+  }
+  .swiper:nth-child(1)::after{
+
+    content: "Diseñador de moda";
+    background-color: #20B7E4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .swiper:nth-child(2)::after{
+
+    content: "Patronista";
+    background-color: #20B7E4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .swiper:nth-child(3)::after{
+
+    content: "Jefe de Producción Textil ";
+    background-color: #20B7E4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+
+  .swiper:nth-child(4)::after{
+
+    content: "Diseñador Gráfico para Moda";
+    background-color: #20B7E4;
+   display: flex;
+   align-items: center;
+   
+   justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+
+
+  
+
+  .swiper-slide {
+    object-fit: cover;
+    display: flex !important;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Kodchasan", serif !important;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 10% 10% 0 0;
+    background-color: rgb(124, 123, 190);
+    text-align: center;
+    margin: 0 auto ;
+  }
+
+  .swiper-slide img {
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+  }
+  
+.swiper.swiper-flip {
+
+    margin-bottom: 5em;
+}
+
+
+.titulo-labor{
+
+    font-family: "Kodchasan", serif !important;
+    color: #CA456F;
+    text-align: center;
+    font-size: 64px;
+}
+
+
+.titulo-labor b{
+    font-weight: 300;
+}
+
+
+
+
+.area-laboral div{
+    width: 15%;
+    display: inline-flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 8em 5em 8em;
+    text-align: center;
+}
+
+
+.trabajos{
+    display: flex;
+    gap: 2em;
+    display: flex;
+    padding: 5em 8em 5em 8em;
+}
+
+
+.trabajos button{
+    width: 100%;
+    height: 150px;
+    background-color: #20B7E4;
+    border-radius: 53px 53px 0px 0px;
+    border: transparent;
+}
+
+
+
+.laboral{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.barra2{
+    position: absolute;
+    border-radius:  20px 0px 0 0;
+    bottom: 0;
+    right: 0;
+    width: 59px;
+    height: 371px;
+    background-color: #A2C6C7;
+}
+
+
+
+#sennova{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 8em 5em 8em;
+    background-image: url(img/Rectangle\ 61.png);
+}
+
+#sennova h1{
+    font-family: "Kodchasan", serif !important;
+    color: #ffffff;
+    font-size: 64px;
+}
+
+#sennova p{
+    font-size: 24px;
+    font-family: "Kodchasan", serif !important;
+    color: #ffffff;
+    
+}
+
+#sennova img{
+    padding: 2em 0em 0em 0em;
+    width: 400px;
+    height:250px ;
+}
+
+
+
+.curva1{
+border-radius: 55px 0px 55px 0px;
+}
+
+
+.curva2{
+    border-radius: 0px 55px 0px 55px;
+}
+
+
+.senn-arriba{
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+.senn-abajo{
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+.barra3{
+    position: absolute;
+    border-radius:  0 20px 0 0;
+    bottom: 0;
+    left: 0;
+    width: 59px;
+    height: 371px;
+    background-color: #CA456F;
+}
+
+
+
+#emprender{
+    padding: 5em 8em 0 8em;
+    width: 100%;
+    height: 100%;
+    background-color: #CA456F;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kodchasan", serif !important;
+    text-align: center;
+}
+
+#emprender h1{
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#emprender h1 b{
+    font-weight: 300;
+}
+
+
+.caja-lista{
+    justify-content: center;
+    align-items: flex-start;
+   color: #ffffff;
+    text-align: center;
+    display: flex;
+    background-color: #AF2752;
+   width: 100%;
+   height: 100%;
+   border-radius: 20px 20px 0 0;
+   padding: 2em 5em 2em 5em;
+}
+
+
+.lista-izq{
+    
+    width: 50%;
+    height: 100%;
+    line-height: 2em;
+    text-align: start;
+    font-size: 1.5vw;
+    align-items: flex-start;
+    list-style:circle;
+
+}
+
+.lista-der{
+    
+   
+    width: 50%;
+    height: 100%;
+    line-height: 2em;
+    text-align: start;
+    font-size: 1.5vw;
+    align-items: flex-start;
+    list-style:circle;
+
+}
+
+
+#APE{
+    display:flex ;
+    font-family: "Kodchasan", serif !important;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 5em 8em 0 8em;
+   
+   
+}
+
+
+#APE p{
+    font-size: 24px;
+}
+
+.titulo-ape{
+ 
+    font-size: 64px;
+    color: #CA456F;
+    text-align: center;
+
+}
+
+
+.titulo-ape2{
+    font-size: 64px;
+    color: #20B7E4;
+    text-align: center;
+
+}
+
+
+.caja-ape{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: #AF2752;
+   width: 100%;
+   color: #ffffff;
+   gap: 10em;
+   border-radius: 20px 20px 0 0;
+   height: 100%;
+   padding: 2em 5em 2em 5em;
+   align-items: flex-start;
+
+}
+
+.ape-izq{
+    width: 50%;
+    height: 100%;
+    line-height: 2em;
+    text-align: start;
+    font-size: 1.5vw;
+    align-items: flex-start;
+    list-style:circle;
+}
+
+.ape-der{
+    width: 50%;
+    height: 100%;
+    line-height: 2em;
+    text-align: start;
+    font-size: 1.5vw;
+    align-items: flex-start;
+    list-style:circle;
+}
+
+
+
+
+
+
+
+#pie-pagina{
+display: flex;
+align-items: center;
+    font-family: "Kodchasan", serif !important;
+    width: 100%;
+    gap: 3em;
+    background-color: rgb(152, 151, 224);
+    justify-content: center;
+    padding: 0em 8em 0em 8em;
+color: #ffffff;
+}
+
+
+#pie-pagina .redes-sena h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 0.7em 0em 0.5em 0em;
+}
+
+
+#pie-pagina h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.redes-sena div{
+    display: flex;
+    align-items: center;
+}
+
+.redes-sena button{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.sena{
+    display: flex;
+    gap: 5em;
+ 
+}
+
+
+
+.face{
+    width: 90px;
+height: 90px;
+}
+
+.sofia{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+
+#img-sofia{
+    height: 90px;
+    width: 90px;
+   
+}
+
+.redes-sena{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0 2em 2em 2em;
+    align-items: center;
+
+}
+
+.derechos{
+   
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-around;
+}
+
+
+
+
+.logo-footer{
+   width: 110px;
+   height: 120px;
+}
+
+
+.contenedor-der video{
+    width: 80%;
+  
+}
+
+.nuestras-redes{
+display: flex;
+padding: 1em 0 0 0;
+justify-content: center;
+ align-items: center;
+}
+
+
+
+
+.facebook {
+   
+    width: 90px;
+    height: 90px;
+}
+
+.instagram{
+    
+    width: 95px;
+    height: 95px;  
+}
+
+.tiktok{
+   
+    width: 95px;
+    height: 95px;
+}
+
+
+.nuestras-redes button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 844px) {
+
+    body {
+        font-size: 14px;
+       
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu img.logo {
+        width: 50%;
+        
+    }
+    .icono{
+        display: block;
+    }
+    #menu-ham:checked ~.menuham{
+
+        display: block;
+
+    }
+    .menuham{
+        display: none;
+        }
+    .dropdown {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+     
+        margin-bottom: 2em;
+    }
+
+    .boton {
+        width: 100%;
+       
+    }
+    .fondo{
+        height: 50vh;
+    }
+
+    .cabeza {
+        height: 50vh;
+    }
+
+    .telas-titulo {
+        font-size: 5em;
+    }
+
+    .telas-parrafo {
+        font-size: 2.5em;
+    }
+
+    .flecha img {
+        width: 50%;
+    }
+
+    .titulo-curso{
+
+        width: 100%;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .barra{
+        width:25px;
+    }
+
+
+    .barra2{
+        width:25px;
+    }
+
+    .barra3{
+        width:25px;
+    }
+
+    .barra4{
+        width:25px;
+    }
+
+
+    #info-curso{
+    padding: 5em 2em 5em 2em;
+ }
+ .videos{
+    padding: 1em;
+    flex-direction: column;
+    gap: 3em;
+    
+    border-radius: 3%;
+ }
+
+ .uniforme{
+    padding: 1em 0 0 0;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+    #info-curso .contenedor-gral{
+    flex-direction: column;
+   
+}
+
+.titulo-curricular{
+   font-size: 28px;
+    padding: 0 0 1em 0;
+}
+
+    .grancontenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .areas{
+gap: 4em;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       justify-items: center;
+       align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5em;
+        
+        
+    }
+    .area1, .area2, .area3, .area4{
+        
+        
+         
+    }
+    .area1::after{
+        font-size: 12px;
+        padding-top: 15em;
+
+    }
+
+    .area2::after{
+        font-size: 12px;
+        padding-top: 15em;
+    }
+    .area3::after{
+        font-size: 12px;
+        padding-top: 15em;
+    }
+    .area4::after{
+        font-size: 12px;
+        padding-top: 15em;
+    }
+
+.area1 img {
+    width: 100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+.area2 img{
+    width: 100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+
+.area3 img{
+    width: 100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+.area4 img{
+    width: 100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+
+    .contenedor-izq, .contenedor-der {
+        width: 100%;
+    }
+   
+    .horarios{
+        padding: 2em 0 2em 0;
+    }
+
+    .horarios h1 {
+        font-size: 1em;
+
+        line-height: 1.8;
+        padding: 0;
+    }
+
+    #area-laboral{
+        width: 100%;
+       padding: 2em 0 2em 0;
+    }
+
+
+
+    .trabajos {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .titulo-labor{
+        padding: 1em 0 1em 0;
+        font-size: 2em;
+      
+    }
+    
+
+    
+
+
+#sennova{
+   
+    width: 100%;
+    padding: 0;
+}
+
+
+
+#sennova img{
+    padding: 0;
+    width: 300px;
+    height:150px ;
+}
+
+
+#sennova h1{
+    padding: 1em 0 0 0;
+    font-size: 28px;
+}
+
+#sennova p{
+    font-size: 15px;
+   
+    
+}
+
+
+
+.senn-arriba{
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+.senn-abajo{
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+
+
+
+#emprender{
+
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-size:6px;
+  
+   
+}
+
+#emprender h1{
+    font-size: 28px;
+    text-align: center;
+    padding: 1em 0 1em 0;
+
+}
+
+.caja-lista{
+    gap: 2em;
+    align-items: flex-start;
+    width: 100% !important;
+    
+}
+
+
+.lista-izq{
+  
+    padding: 2em;
+    height: 100%;
+    font-size:12px;
+   
+
+}
+
+.lista-der{
+  
+    padding: 2em;
+    height: 100%;
+    font-size:12px;
+
+}
+
+
+
+
+#APE{
+   
+    width: 100%;
+    padding: 0;
+
+}
+
+
+.titulo-ape{
+    padding: 1em 0 0 0;
+    font-size: 50px;
+}
+
+.titulo-ape2{
+    font-size: 50px;
+}
+
+
+
+#APE p{
+    padding: 0 1em 0 1em;
+    font-size: 15px;
+}
+
+
+ 
+
+    .senn-arriba, .senn-abajo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .caja-ape {
+    width: 100% !important;
+ 
+    gap: 0;
+    }
+
+
+.ape-izq{
+    padding: 1em;
+    height: 100%;
+    font-size:12px;
+    }
+
+
+    .ape-der{
+        padding: 1em;
+        
+        height: 100%;
+        font-size:12px;
+    }
+
+
+
+
+
+
+    #pie-pagina{
+       
+        gap: 0.5em;
+        display: flex;
+     padding: 0;
+        }
+        
+        #pie-pagina .redes-sena h1{
+            text-align: center;
+            font-size: 9px;
+            padding: 1em 0em 0.5em 0em;
+        }
+        
+        
+        #pie-pagina h1{
+            text-align: center;
+            font-size: 9px;
+        }
+        .redes-sena div{
+            padding: 0em 0em 0em 1em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .redes-sena button{
+            background-color: transparent;
+            border: none;
+        }
+        
+    
+    .sena{
+        display: flex;
+        gap: 1em;
+     
+    }
+    
+    
+    
+    .face{
+        width: 30px;
+    height: 30px;
+    }
+    
+    .sofia{
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    #img-sofia{
+ 
+        cursor: pointer;
+    }
+    
+    .redes-sena{
+        display: flex;
+        flex-direction: column;
+       
+    
+        align-items: center;
+    
+    }
+    
+    .derechos{
+        
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    
+    
+    
+    
+    .logo-footer{
+       width: 60px;
+       height: 60px;
+    }
+    
+    
+
+    
+    .nuestras-redes{
+    display: flex;
+    padding: 0.6em 1em 0em 0em;
+    justify-content: center;
+     align-items: center;
+    }
+    
+    
+    
+    
+    .facebook {
+       
+        width: 30px;
+    height: 30px;
+    }
+    
+    .instagram{
+        
+        width: 32px;
+        height: 32px;  
+    }
+    
+    .tiktok{
+       
+        width: 32px;
+        height: 32px;
+    }
+    
+    
+    .nuestras-redes button{
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 844px) {
+
+
+    body {
+        font-size: 14px;
+       
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu img.logo {
+        width: 50%;
+        
+    }
+    .dropdown {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .boton {
+        width: 100%;
+       
+    }
+    .fondo{
+        height: 50vh;
+    }
+
+    .cabeza {
+        height: 50vh;
+    }
+
+    .telas-titulo {
+        font-size: 5em;
+    }
+
+    .telas-parrafo {
+        font-size: 2.5em;
+    }
+
+    .flecha img {
+        width: 50%;
+    }
+
+    .titulo-curso{
+
+        width: 100%;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .barra{
+        width:25px;
+    }
+
+
+    .barra2{
+        width:25px;
+    }
+
+    .barra3{
+        width:25px;
+    }
+
+    .barra4{
+        width:25px;
+    }
+
+
+    #info-curso{
+    padding: 5em 2em 5em 2em;
+ }
+ .videos{
+    padding: 1em;
+    flex-direction: column;
+    gap: 3em;
+   
+    border-radius: 3%;
+ }
+
+
+ .carpincho{
+    width: 50%;
+}
+
+
+    #info-curso .contenedor-gral{
+    flex-direction: column;
+   
+}
+
+.titulo-curricular{
+    font-size: 3em;
+}
+
+    .grancontenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .areas{
+gap: -2em;
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       justify-items: center;
+       align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5em;
+      
+    }
+    .area1, .area2, .area3, .area4{
+        
+        width: 129px;
+        height: 129px;      
+    }
+   
+
+
+      
+
+.area1::after{
+    padding-top: 17em;
+
+}
+
+.area2::after{
+    padding-top: 16em;
+
+}
+.area3::after{
+   
+    padding-top: 18em;
+}
+.area4::after{
+    padding-top: 16em;
+  
+}
+
+
+
+    .contenedor-izq, .contenedor-der {
+        width: 100%;
+    }
+   
+    .horarios{
+        padding: 2em 0 2em 0;
+    }
+
+    .horarios h1 {
+        font-size: 1.5em;
+
+        line-height: 1.8;
+        padding: 0;
+    }
+
+    #area-laboral{
+        width: 100%;
+       padding: 2em;
+    }
+
+
+
+    .trabajos {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .titulo-labor{
+        padding: 1em 0 1em 0;
+        font-size: 50px;
+      
+    }
+    
+
+    
+
+
+#sennova{
+   
+    width: 100%;
+    padding: 0;
+}
+
+
+
+#sennova img{
+    padding: 0;
+    width: 300px;
+    height:150px ;
+}
+
+
+#sennova h1{
+    padding: 0.5em 0 0.2em 0;
+    font-size: 50px;
+}
+
+#sennova p{
+    font-size: 15px;
+   
+    
+}
+
+
+
+.senn-arriba{
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+.senn-abajo{
+    padding: 1em;
+    justify-content: center;
+    display: flex;
+gap: 3em;
+}
+
+
+
+
+#emprender{
+
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-size:6px;
+  
+  
+}
+
+#emprender h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 1em 0 1em 0;
+
+}
+
+.caja-lista{
+    gap: 2em;
+    align-items: flex-start;
+    width: 100% !important;
+    
+}
+
+
+.lista-izq{
+  
+    padding: 2em;
+    height: 100%;
+    font-size:12px;
+   
+
+}
+
+.lista-der{
+  
+    padding: 2em;
+    height: 100%;
+    font-size:12px;
+
+}
+
+
+
+
+#APE{
+    width: 100%;
+    padding: 0;
+
+}
+
+
+
+
+
+#APE p{
+    font-size: 15px;
+}
+
+
+  
+    .senn-arriba, .senn-abajo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .caja-ape {
+    width: 100% !important;
+ 
+    gap: 0;
+    }
+
+
+.ape-izq{
+       font-size: 12px;
+    }
+
+
+    .ape-der{
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    #pie-pagina{
+       
+        gap: 3em;
+        display: flex;
+     padding: 0;
+        }
+        
+        #pie-pagina .redes-sena h1{
+            text-align: center;
+            font-size: 9px;
+            padding: 1em 0em 0.5em 0em;
+        }
+        
+        
+        #pie-pagina h1{
+            text-align: center;
+            font-size: 9px;
+        }
+        .redes-sena div{
+            padding: 0em 0em 0em 1em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .redes-sena button{
+            background-color: transparent;
+            border: none;
+        }
+        
+    
+    .sena{
+        display: flex;
+        gap: 1em;
+     
+    }
+    
+    
+    
+    .face{
+        width: 60px;
+    height: 60px;
+    }
+    
+    .sofia{
+        width: 55px;
+        height: 55px;
+    }
+    
+    
+    #img-sofia{
+ 
+        cursor: pointer;
+    }
+    
+    .redes-sena{
+        display: flex;
+        flex-direction: column;
+       padding: 0.2em 0 0 0;
+    
+        align-items: center;
+    
+    }
+    
+    .derechos{
+        
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    
+    
+    
+    
+    .logo-footer{
+       width: 60px;
+       height: 60px;
+    }
+    
+    
+    .contenedor-der video{
+        width: 80%;
+      
+    }
+    
+    .nuestras-redes{
+    display: flex;
+    padding: 0.6em 1em 0em 0em;
+    justify-content: center;
+     align-items: center;
+    }
+    
+    
+    
+    
+    .facebook {
+       
+        width: 60px;
+    height: 60px;
+    }
+    
+    .instagram{
+        
+        width: 62px;
+        height: 62px;  
+    }
+    
+    .tiktok{
+       
+        width: 62px;
+        height: 62px;
+    }
+    
+    
+    .nuestras-redes button{
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
+
+
+
+
+
+
+}
